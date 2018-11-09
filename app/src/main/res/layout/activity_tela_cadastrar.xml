@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_cadastrarObj"
+        android:padding="20dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/texto_default"/>
+
+    <EditText
+        android:id="@+id/nomeObj"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="12dp"
+        android:hint="@string/hint_obj"
+        android:background="@drawable/round"
+        android:inputType="text"
+        />
+    <Spinner
+        android:id="@+id/spnTipo"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:prompt="@string/tp_prompt"
+        android:entries="@array/tipoObj"
+        />
+
+    <Spinner
+        android:id="@+id/spnAndar"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginBottom="25dp"
+        android:prompt="@string/andar_prompt"
+        android:entries="@array/andar"/>
+
+    <Spinner
+        android:id="@+id/spnSalas"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginBottom="20dp"
+        android:prompt="@string/sala_prompt"
+        android:entries="@array/salas"/>
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_cadastrar"
+        android:text="@string/button"
+        android:textColor="@color/btnSecundario"
+        android:background="@drawable/button_primario"
+        android:onClick="teste"
+    />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/btnCancelar"
+        android:text="@string/cancelar"
+        android:background="@drawable/button_secundario"
+        android:textColor="@color/texto_default"
+    />
+
+
+
+
+
+</LinearLayout>

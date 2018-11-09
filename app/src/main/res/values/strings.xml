@@ -1,0 +1,67 @@
+    <resources>
+    <string name="app_name">CadastroDigitalDeObjetos</string>
+    <string name="autenticacao">Autenticação</string>
+    <string name="subtitle_frase">Por favor, insira seu telefone \n  para receber o código SMS.</string>
+    <string name="hint_fone">(DD) 98765-4321</string>
+    <string name="enviar">Enviar</string>
+    <string name="subtitle_frase_autentica">Insira o código recebido via SMS</string>
+    <string name="codigo">****</string>
+    <string name="autenticar">Autenticar</string>
+    <string name="frase_nao_autentica">Caso não receba o código, clique em reenviar.</string>
+    <string name="reenviar">Reenviar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="tempo_5_00">5</string>
+    <string name="textview">TextView</string>
+    <string name="button">Cadastrar</string>
+    <string name="title_cadastrarObj">Cadastrar Objeto</string>
+    <string name="tipo_obj">Tipo</string>
+    <string name="hint_obj">Nome do Objeto</string>
+    <string name="tp_prompt">Tipo de Objeto</string>
+    <string name="andar_prompt">Andar do Objeto</string>
+    <string name="sala_prompt">Sala do Objeto</string>
+    <!-- ARRAYS SPINNER -->
+   <string-array name="tipoObj">
+        <item>Tipo</item>
+        <item>Máquina</item>
+        <item>Móvel</item>
+        <item>Periférico Eletrônico</item>
+        <item>Aparelho Eletrônico</item>
+        <item>Eletro-doméstico</item>
+        <item>Equipamento de segurança</item>
+    </string-array>
+    <string-array name="andar">
+        <item>Andar</item>
+        <item>Térreo</item>
+        <item>Biblioteca</item>
+        <item>1ºA</item>
+        <item>3ºA</item>
+        <item>3ºB</item>
+        <item>4ºA</item>
+        <item>4ºB</item>
+        <item>11ºA</item>
+        <item>11ºB</item>
+    </string-array>
+    <string-array name="salas">
+        <item>Sala (Opicional)</item>
+        <item>Staff</item>
+        <item>Simbiose</item>
+        <item>Diretoria Academica</item>
+        <item>Diretoria Corporativa</item>
+        <item>Coding</item>
+        <item>NDE</item>
+        <item>NAP</item>
+        <item>Sala dos Professores</item>
+    </string-array>
+
+
+        <!--<string-array name="planets_array">
+            <item>Mercury</item>
+            <item>Venus</item>
+            <item>Earth</item>
+            <item>Mars</item>
+            <item>Jupiter</item>
+            <item>Saturn</item>
+            <item>Uranus</item>
+            <item>Neptune</item>
+        </string-array>-->
+</resources>

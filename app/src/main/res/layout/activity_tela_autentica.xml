@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorPrimary"
+    tools:context=".tela_autentica">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_autentica"
+        android:text="@string/autenticacao"
+        android:textColor="@color/texto_default"
+        android:padding="25px"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingBottom="25dp"
+        android:id="@+id/subtitle_autentica"
+        android:layout_below="@id/title_autentica"
+        android:text="@string/subtitle_frase_autentica"
+        android:textColor="@color/texto_default"
+        />
+
+    <EditText
+        android:layout_width="2in"
+        android:layout_height="32dp"
+        android:id="@+id/edit_code"
+        android:layout_below="@id/subtitle_autentica"
+        android:hint="@string/codigo"
+        android:inputType=""
+        android:background="@drawable/round"
+        android:paddingLeft="20px"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingRight="60dp"
+        android:id="@+id/tempo_restante"
+        android:layout_below="@id/edit_code"
+        android:text="@string/tempo_5_00"
+        />
+
+    <Button
+        android:layout_width="2in"
+        android:layout_height="35dp"
+        android:id="@+id/btn_autentica"
+        android:layout_below="@id/tempo_restante"
+        android:text="@string/autenticar"
+        android:background="@drawable/button_primario"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:id="@+id/subtitle_nao_autentica"
+        android:text="@string/frase_nao_autentica"
+        android:layout_below="@id/btn_autentica"
+        android:textColor="@color/texto_default"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_reenviar"
+        android:text="@string/reenviar"
+        android:background="@drawable/button_secundario"
+        android:textColor="@color/texto_default"
+        android:layout_marginRight="60dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancelar"
+        android:layout_below="@id/subtitle_nao_autentica"
+        android:text="@string/cancelar"
+        android:background="@drawable/button_secundario"
+        android:textColor="@color/texto_default"
+        />
+
+    </LinearLayout>
+</LinearLayout>

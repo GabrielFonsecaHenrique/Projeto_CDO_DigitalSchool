@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#32B9CD</color>
+    <color name="colorPrimaryDark">#8FE8EF</color>
+    <color name="colorAccent">#E6005A</color>
+    <color name="texto_default">#ffffff</color>
+    <color name="spnN">	#000000</color>
+    <color name="spnS">#DDA0DD</color>
+    <color name="btnSecundario">#111410</color>
+
+    <!--<color name="colorButton">#34373F</color>-->
+</resources>
